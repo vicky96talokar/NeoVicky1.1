@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using NeoVicky.Models;
+using NeoVicky.ViewModels;
 
 namespace NeoVicky.Controllers
 {
@@ -12,15 +13,30 @@ namespace NeoVicky.Controllers
         // GET: Movies
         public ActionResult Random()
         {
-            var movie = new Movie()
+            var movie = new Movie() { Name = "Matrix" };
+
+            var customers = new List<Customer>
             {
-                Name = "Matrix"
+                new Customer { Name="Customer 1"},
+                new Customer { Name="Customer 2"},
+                new Customer { Name="Customer 3"},
             };
-            //return View(movie);
-            //return Content("Hello World");
-            //return HttpNotFound();
-            // return new EmptyResult();
-            return RedirectToAction("Index","Home",new { page=1,sortBy = "name"});
+
+            var viewModel = new RandomMovieViewModel
+            {
+                Movie = movie,
+                Customers = customers
+            };
+             
+            return View(viewModel);
         }
+
+        public ViewResult Details()
+        {
+            Movie  model = new Movie() { Name = "Matrix" };
+            ViewBag.PageTitle = "Welcome To MVC Site";
+            return View(model);
+        }
+
     }
 }
