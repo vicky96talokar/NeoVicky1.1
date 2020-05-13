@@ -80,3 +80,5 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Securi
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csprojResolveAssemblyReference.cache
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.dll
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.pdb
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csproj.GenerateResource.Cache
