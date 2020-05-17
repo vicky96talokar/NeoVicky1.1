@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model NeoVicky.ViewModels.RandomMovieViewModel
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -6,6 +7,7 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     @Html.Partial("_NavBar")
@@ -13,11 +15,12 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - NeoVicky</p>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-    @Scripts.Render("~/bundles/lib")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
-s
