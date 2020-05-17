@@ -82,3 +82,13 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.dll
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.pdb
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csproj.GenerateResource.Cache
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.AddSubribedToCustomer.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.AddMembershipType.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.PopulateMembershipTypes.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.ApplyAnnotationToCustomerName.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.ApplyAnnotationToCustomerName1.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel5.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel51.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel511.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel512.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel513.resources
