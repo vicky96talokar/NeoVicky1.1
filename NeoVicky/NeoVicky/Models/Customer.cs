@@ -9,8 +9,7 @@ namespace NeoVicky.Models
     public class Customer
     {
         public int Id { get; set; }
-
-        [Required]
+        [Required(ErrorMessage ="Please Enter Name")]
         [StringLength(255)]
         public string Name { get; set; }
         public int PinCode { get; set; }
@@ -22,6 +21,7 @@ namespace NeoVicky.Models
         public byte MembershipTypeId { get; set; }
 
         [Display(Name = "Date of Birth")]
+        [Minimum18YearsIfMember]
         public DateTime? Birthdate { get; set; }
     }
 }

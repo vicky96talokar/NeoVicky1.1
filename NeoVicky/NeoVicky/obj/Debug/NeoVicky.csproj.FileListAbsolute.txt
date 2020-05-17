@@ -77,7 +77,6 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Securi
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Security.Google.xml
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Security.Twitter.xml
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csprojResolveAssemblyReference.cache
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.dll
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.pdb
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel.resources
@@ -92,3 +91,11 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrat
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel511.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel512.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel513.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csprojResolveAssemblyReference.cache
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Net.Http.Formatting.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Web.Http.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Web.Http.WebHost.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Net.Http.Formatting.xml
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Web.Http.xml
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Web.Http.WebHost.xml
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel514.resources
