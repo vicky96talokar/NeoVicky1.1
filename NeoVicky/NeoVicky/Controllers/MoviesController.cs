@@ -1,16 +1,15 @@
-﻿using NeoVicky.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using NeoVicky.ViewModels;
 using System.Data.Entity;
+using System.Linq;
+using System.Web.Mvc;
+using NeoVicky.Models;
+using NeoVicky.ViewModels;
+
 namespace NeoVicky.Controllers
 {
     public class MoviesController : Controller
     {
-
         private ApplicationDbContext _context;
 
         public MoviesController()
@@ -23,13 +22,25 @@ namespace NeoVicky.Controllers
             _context.Dispose();
         }
 
-
         public ViewResult Index()
         {
             if (User.IsInRole(RoleName.CanManageMovies))
                 return View("List");
-
+                
             return View("ReadOnlyList");
+        }
+
+        [Authorize(Roles = RoleName.CanManageMovies)]
+        public ViewResult New()
+        {
+            var genres = _context.Genres.ToList();
+
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = genres
+            };
+
+            return View("MovieForm", viewModel);
         }
 
         [Authorize(Roles = RoleName.CanManageMovies)]
@@ -52,11 +63,17 @@ namespace NeoVicky.Controllers
         public ActionResult Details(int id)
         {
             var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
+
+            if (movie == null)
+                return HttpNotFound();
+
             return View(movie);
+
         }
 
 
-       public ActionResult Random()
+        // GET: Movies/Random
+        public ActionResult Random()
         {
             var movie = new Movie() { Name = "Shrek!" };
             var customers = new List<Customer>
@@ -107,6 +124,5 @@ namespace NeoVicky.Controllers
 
             return RedirectToAction("Index", "Movies");
         }
-
     }
 }

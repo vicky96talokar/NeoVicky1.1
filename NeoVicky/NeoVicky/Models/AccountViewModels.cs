@@ -72,7 +72,7 @@ namespace NeoVicky.Models
 
     public class RegisterViewModel
     {
-        //[Required]
+        [Required]
         [Display(Name = "Driving License")]
         public string DrivingLicense { get; set; }
 
@@ -92,7 +92,7 @@ namespace NeoVicky.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        //[Required]
+        [Required]
         [StringLength(50)]
         public string Phone { get; set; }
     }
