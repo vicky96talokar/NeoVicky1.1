@@ -99,3 +99,13 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Net.Http.Forma
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Web.Http.xml
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\System.Web.Http.WebHost.xml
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel514.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\AutoMapper.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\AutoMapper.xml
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel515.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Neo.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModel52.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Neo1.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations._new.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModelNeo.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModelNeo1.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.SeedUsers.resources

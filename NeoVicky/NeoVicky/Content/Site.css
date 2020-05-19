@@ -28,10 +28,7 @@ label.error {
     color: red;
 }
 
-.input-validation-error
- {
+.input-validation-error,
+input.error {
     border: 2px solid red;
-}
-.field-validation-error {
-color:red;
 }
