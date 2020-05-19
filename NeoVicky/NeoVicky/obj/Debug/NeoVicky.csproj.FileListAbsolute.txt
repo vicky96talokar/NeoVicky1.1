@@ -109,3 +109,9 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrat
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModelNeo.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.InitialModelNeo1.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.SeedUsers.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Initialneo11.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Glimpse.Ado.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Glimpse.AspNet.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Glimpse.Core.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Glimpse.EF6.dll
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Glimpse.Mvc5.dll
