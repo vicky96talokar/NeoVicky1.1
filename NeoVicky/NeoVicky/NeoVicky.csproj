@@ -279,6 +279,10 @@
     <Compile Include="Migrations\202005190253116_Initialneo11.designer.cs">
       <DependentUpon>202005190253116_Initialneo11.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005191150560_Initialneo111.cs" />
+    <Compile Include="Migrations\202005191150560_Initialneo111.designer.cs">
+      <DependentUpon>202005191150560_Initialneo111.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
@@ -291,46 +295,6 @@
     <Compile Include="Migrations\202005130928082_InitialModel.cs" />
     <Compile Include="Migrations\202005130928082_InitialModel.designer.cs">
       <DependentUpon>202005130928082_InitialModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005130944590_AddSubribedToCustomer.cs" />
-    <Compile Include="Migrations\202005130944590_AddSubribedToCustomer.designer.cs">
-      <DependentUpon>202005130944590_AddSubribedToCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005130950322_AddMembershipType.cs" />
-    <Compile Include="Migrations\202005130950322_AddMembershipType.designer.cs">
-      <DependentUpon>202005130950322_AddMembershipType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005130954057_PopulateMembershipTypes.cs" />
-    <Compile Include="Migrations\202005130954057_PopulateMembershipTypes.designer.cs">
-      <DependentUpon>202005130954057_PopulateMembershipTypes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005131701462_ApplyAnnotationToCustomerName.cs" />
-    <Compile Include="Migrations\202005131701462_ApplyAnnotationToCustomerName.designer.cs">
-      <DependentUpon>202005131701462_ApplyAnnotationToCustomerName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005160638443_ApplyAnnotationToCustomerName1.cs" />
-    <Compile Include="Migrations\202005160638443_ApplyAnnotationToCustomerName1.designer.cs">
-      <DependentUpon>202005160638443_ApplyAnnotationToCustomerName1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005160926355_InitialModel5.cs" />
-    <Compile Include="Migrations\202005160926355_InitialModel5.designer.cs">
-      <DependentUpon>202005160926355_InitialModel5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005161814595_InitialModel51.cs" />
-    <Compile Include="Migrations\202005161814595_InitialModel51.designer.cs">
-      <DependentUpon>202005161814595_InitialModel51.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005170522456_InitialModel511.cs" />
-    <Compile Include="Migrations\202005170522456_InitialModel511.designer.cs">
-      <DependentUpon>202005170522456_InitialModel511.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005170846096_InitialModel512.cs" />
-    <Compile Include="Migrations\202005170846096_InitialModel512.designer.cs">
-      <DependentUpon>202005170846096_InitialModel512.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202005171013116_InitialModel513.cs" />
-    <Compile Include="Migrations\202005171013116_InitialModel513.designer.cs">
-      <DependentUpon>202005171013116_InitialModel513.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\202005171436467_InitialModel514.cs" />
     <Compile Include="Migrations\202005171436467_InitialModel514.designer.cs">
@@ -363,8 +327,6 @@
     </Content>
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap-united.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\DataTables\css\autoFill.bootstrap.css" />
@@ -474,13 +436,13 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\Site.css" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="Content\typeahead.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootbox.js" />
@@ -631,36 +593,6 @@
     <EmbeddedResource Include="Migrations\202005130928082_InitialModel.resx">
       <DependentUpon>202005130928082_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005130944590_AddSubribedToCustomer.resx">
-      <DependentUpon>202005130944590_AddSubribedToCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005130950322_AddMembershipType.resx">
-      <DependentUpon>202005130950322_AddMembershipType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005130954057_PopulateMembershipTypes.resx">
-      <DependentUpon>202005130954057_PopulateMembershipTypes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005131701462_ApplyAnnotationToCustomerName.resx">
-      <DependentUpon>202005131701462_ApplyAnnotationToCustomerName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005160638443_ApplyAnnotationToCustomerName1.resx">
-      <DependentUpon>202005160638443_ApplyAnnotationToCustomerName1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005160926355_InitialModel5.resx">
-      <DependentUpon>202005160926355_InitialModel5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005161814595_InitialModel51.resx">
-      <DependentUpon>202005161814595_InitialModel51.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005170522456_InitialModel511.resx">
-      <DependentUpon>202005170522456_InitialModel511.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005170846096_InitialModel512.resx">
-      <DependentUpon>202005170846096_InitialModel512.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202005171013116_InitialModel513.resx">
-      <DependentUpon>202005171013116_InitialModel513.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005171436467_InitialModel514.resx">
       <DependentUpon>202005171436467_InitialModel514.cs</DependentUpon>
     </EmbeddedResource>
@@ -690,6 +622,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005190253116_Initialneo11.resx">
       <DependentUpon>202005190253116_Initialneo11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005191150560_Initialneo111.resx">
+      <DependentUpon>202005191150560_Initialneo111.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
