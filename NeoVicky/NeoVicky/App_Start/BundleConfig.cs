@@ -33,6 +33,7 @@ namespace NeoVicky
                       "~/content/typeahead.css",
                       "~/content/toastr.css",
                       "~/Content/site.css"));
+
         }
     }
 }

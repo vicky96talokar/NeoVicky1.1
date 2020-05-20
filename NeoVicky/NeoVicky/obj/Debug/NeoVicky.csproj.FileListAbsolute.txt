@@ -11,7 +11,6 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrat
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Initialneo11.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Initialneo111.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csproj.GenerateResource.Cache
-G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csprojResolveAssemblyReference.cache
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\ApplicationInsights.config
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\roslyn\csc.exe
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -106,3 +105,9 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Securi
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.dll
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.pdb
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Initialneo99.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Final.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Final1.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Final2.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Final99.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csprojResolveAssemblyReference.cache

@@ -288,6 +288,26 @@
     <Compile Include="Migrations\202005191150560_Initialneo111.designer.cs">
       <DependentUpon>202005191150560_Initialneo111.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005191800441_Initialneo99.cs" />
+    <Compile Include="Migrations\202005191800441_Initialneo99.designer.cs">
+      <DependentUpon>202005191800441_Initialneo99.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005191831272_Final.cs" />
+    <Compile Include="Migrations\202005191831272_Final.designer.cs">
+      <DependentUpon>202005191831272_Final.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005191946146_Final1.cs" />
+    <Compile Include="Migrations\202005191946146_Final1.designer.cs">
+      <DependentUpon>202005191946146_Final1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005200312130_Final2.cs" />
+    <Compile Include="Migrations\202005200312130_Final2.designer.cs">
+      <DependentUpon>202005200312130_Final2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005200331378_Final99.cs" />
+    <Compile Include="Migrations\202005200331378_Final99.designer.cs">
+      <DependentUpon>202005200331378_Final99.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Global.asax.cs">
@@ -581,9 +601,7 @@
     <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Movies\ReadOnlyList.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\roslyn\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -628,6 +646,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005191150560_Initialneo111.resx">
       <DependentUpon>202005191150560_Initialneo111.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005191800441_Initialneo99.resx">
+      <DependentUpon>202005191800441_Initialneo99.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005191831272_Final.resx">
+      <DependentUpon>202005191831272_Final.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005191946146_Final1.resx">
+      <DependentUpon>202005191946146_Final1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005200312130_Final2.resx">
+      <DependentUpon>202005200312130_Final2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005200331378_Final99.resx">
+      <DependentUpon>202005200331378_Final99.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

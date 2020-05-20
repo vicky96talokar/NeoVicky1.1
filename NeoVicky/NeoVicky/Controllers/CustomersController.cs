@@ -1,7 +1,10 @@
-﻿using System.Data.Entity;
+﻿using NeoVicky.Models;
+using System.Data.Entity;
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using System.Web.Mvc;
-using NeoVicky.Models;
 using NeoVicky.ViewModels;
 
 namespace NeoVicky.Controllers
@@ -65,6 +68,7 @@ namespace NeoVicky.Controllers
 
         public ViewResult Index()
         {
+           // var customers = _context.Customers.Include(c => c.MembershipType).ToList();
             return View();
         }
 

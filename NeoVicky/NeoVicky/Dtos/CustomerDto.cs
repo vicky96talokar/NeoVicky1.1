@@ -1,5 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+using System.Data.Entity;
+using NeoVicky.Models;
 
 namespace NeoVicky.Dtos
 {
@@ -15,7 +20,7 @@ namespace NeoVicky.Dtos
 
         public byte MembershipTypeId { get; set; }
 
-        public MembershipTypeDto MembershipType { get; set; }
+        public MembershipType MembershipType { get; set; }
 
 //        [Min18YearsIfAMember]
         public DateTime? Birthdate { get; set; }
