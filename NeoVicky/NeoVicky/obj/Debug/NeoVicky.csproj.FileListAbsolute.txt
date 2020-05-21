@@ -112,3 +112,4 @@ G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrat
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Final99.resources
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.csprojResolveAssemblyReference.cache
 G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\obj\Debug\NeoVicky.Migrations.Final20.resources
+G:\WorkSpace\DemoProject\NeoProjects\NeoVicky\NeoVicky\bin\Elmah.dll
