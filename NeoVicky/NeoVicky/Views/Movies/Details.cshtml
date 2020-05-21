@@ -1,15 +1,13 @@
 ﻿@model NeoVicky.Models.Movie
-@{
-    ViewBag.Title = "Details";
+
+@{ 
+    ViewBag.Title = Model.Name;
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h3>@ViewBag.PageTitle</h3>
-
-
-<div>
-    Name: @Model.Name
-</div>
-<div>
-    ID: @Model.Id
-</div>
-
+<h2>@Model.Name</h2>
+<ul>
+    <li>Genre: @Model.Genre.Name</li>
+    <li>Release Date: @Model.ReleaseDate.ToLongDateString()</li>
+    <li>Date Added: @Model.DateAdded.ToLongDateString()</li>
+    <li>Number in Stock: @Model.NumberInStock</li>
+</ul>

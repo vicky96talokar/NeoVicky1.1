@@ -26,7 +26,7 @@ namespace NeoVicky.Controllers
         {
             if (User.IsInRole(RoleName.CanManageMovies))
                 return View("List");
-                
+
             return View("ReadOnlyList");
         }
 
